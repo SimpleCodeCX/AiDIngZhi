@@ -1,1 +1,32 @@
 /* Empty. Add your own CSS if you like */
+
+/*修改tabs栏的未选中颜色*/
+.tabs-striped.tabs-stable .tab-item{
+color: #666;
+}
+.testBorder{
+  border: 1px solid red;
+}
+
+/*design页面里的幻灯片样式（ion-slide-box），设置其高宽度*/
+.design_page .design-slide ion-slide{
+  height: 300px;
+  width: 100%;
+}
+.design_page .design-slide ion-slide img{
+  height:300px;
+  width: 100%;
+}
+/*design页面里的slider-pager的高度和大小*/
+.design_page .slider-pager .slider-pager-page{
+  font-size: 15px;
+}
+.design_page .slider-pager{
+  bottom: 20px;
+}
+
+
+
+
+
+
