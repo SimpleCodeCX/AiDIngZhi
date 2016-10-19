@@ -48,6 +48,22 @@ color: #666;
 }
 
 
+/*drawing_details页面*/
+/*------------------------------->>>>>>>>*/
+.ion_modal_view {
+  filter:alpha(opacity=50);
+  -moz-opacity:0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.6;
+}
+.ion_modal_view2 {
+  filter:alpha(opacity=50);
+  -moz-opacity:0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.9;
+}
+
+
 
 
 

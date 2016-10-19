@@ -2,7 +2,7 @@
  * Created by simple on 2016/10/15.
  */
 
-angular.module("starter",["ionic"])
+angular.module("starter",["ionic","starter.controllers"])
   .run(function($ionicPlatform) {
     $ionicPlatform.ready(function() {
       // Hide the accessory bar by default (remove this to show the accessory bar above the keyboard
@@ -64,7 +64,8 @@ angular.module("starter",["ionic"])
     })
       .state("design_drawing",{
       url:"/design_drawing",
-      templateUrl:"design/design_drawing.html"
+      templateUrl:"design/design_drawing.html",
+        controller: 'Design_drawingCtrl'
     })
       .state("designer",{
       url:"/designer",
