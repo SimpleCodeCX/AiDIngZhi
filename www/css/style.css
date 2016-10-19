@@ -8,6 +8,8 @@ color: #666;
   border: 1px solid red;
 }
 
+/*design页面*/
+/*------------------------------->>>>>>>>*/
 /*design页面里的幻灯片样式（ion-slide-box），设置其高宽度*/
 .design_page .design-slide ion-slide{
   height: 300px;
@@ -25,6 +27,25 @@ color: #666;
   bottom: 20px;
 }
 
+/*design_drawing页面*/
+/*------------------------------->>>>>>>>*/
+.design_drawing_page .row{
+  height: 185px;
+}
+.design_drawing_page .row .col{
+  text-align: center;
+  line-height: 20px;
+  height: 185px;
+}
+.design_drawing_page .row .col .img_div img{
+  border: 1px solid black;
+  box-shadow: 1px 1px 1px;
+  height: 140px;
+}
+.design_drawing_page .row .col img{
+  height: 136px;
+  width: 100%;
+}
 
 
 

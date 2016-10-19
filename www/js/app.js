@@ -62,6 +62,28 @@ angular.module("starter",["ionic"])
           }
         }
     })
+      .state("design_drawing",{
+      url:"/design_drawing",
+      templateUrl:"design/design_drawing.html"
+    })
+      .state("designer",{
+      url:"/designer",
+      templateUrl:"design/designer.html"
+    })
+      .state("logo",{
+      url:"/logo",
+      templateUrl:"design/logo.html"
+    })
+
+ /*     .state("design_tabs.design_drawing",{
+        url:"/design_drawing",
+        views:{
+          "design_page":{
+            templateUrl:"design/design_drawing.html"
+          }
+        }
+
+      })*/
       .state("tab.aiDingZhi",{
         url:"/aiDingZhi",
         views:{

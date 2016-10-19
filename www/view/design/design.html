@@ -1,32 +1,46 @@
 <div class="design_page">
 <ion-view view-title="搞设计" hide-back-button="false">
-  <ion-content class=" stable-bg">
+  <ion-nav-buttons side="right">
+    <button class="button button-small button-balanced  ">
+      上传作品
+    </button>
+  </ion-nav-buttons>
+  <ion-content class="stable-bg" >
 
-    <hr class="" style="padding: 0;margin-top: 3px;"/>
+    <hr class="" style="padding: 0;margin-top: 0px;margin-bottom: 0px;"/>
     <div class="row" style="padding: 0;margin-top: 0">
-      <div class="col col-20 " style="text-align: center;" >
-        <div class="button button-balanced " style="border-radius: 45px;height: 50px;width: 45px;
+      <div class="col col-20 col-offset-20 " style="text-align: center;">
+        <a class="dark" href="#/designer">
+          <div class="button button-balanced button-outline " style="border-radius: 45px;height: 50px;width: 45px;
                         padding-top: 4px;">
-          <i class=" icon ion-paper-airplane light" style="font-size: 40px;"></i>
+            <i class=" icon ion-paper-airplane " style="font-size: 40px;"></i>
+          </div>
+          <div style="margin-top: 3px;">
+            设计师
+          </div>
+        </a>
+      </div>
+      <div class="col col-20 " style="text-align: center;" >
+        <a class="dark" href="#/design_drawing">
+        <div class="button button-balanced button-outline " style="border-radius: 45px;height: 50px;width: 45px;
+                        padding-top: 4px;">
+          <i class=" icon ion-paper-airplane " style="font-size: 40px;"></i>
         </div>
         <div style="margin-top: 3px;">
           设计稿
         </div>
+        </a>
       </div>
-      <div class="col-20">
-        <div class="row" style="padding: 0;">
-          <div class="col col-90  text-center">
-            <a class="button button-balanced   icon ion-paper-airplane"
-               style="border-radius:60px;">
-            </a>
-
-          </div>
+      <div class="col col-20 " style="text-align: center;" >
+        <a class="dark" href="#/logo">
+        <div class="button button-balanced button-outline " style="border-radius: 45px;height: 50px;width: 45px;
+                        padding-top: 4px;">
+          <i class=" icon ion-ios-flower " style="font-size: 40px;"></i>
         </div>
-        <div class="row " >
-          <div class="col-90 text-center" style="margin-top: 3px;">
-            设计稿
-          </div>
+        <div style="margin-top: 3px;">
+          Logo
         </div>
+      </a>
       </div>
     </div>
 
@@ -35,17 +49,7 @@
 
 
 <hr class="" style="margin: 0px;"/>
-    <ion-list>
-      <div class="row padding">
-        <div class="col-15" >
-          <a class="button button-balanced button-outline icon ion-paper-airplane" >设计稿</a>
-        </div>
-        <div class="col-15 col-offset-10" >
-          <a class="button button-balanced button-outline icon ion-paper-airplane" >Logo</a>
-        </div>
-      </div>
-    </ion-list>
-    <hr/>
+
     <div class="design-slide">
       <ion-slide-box   auto-play="true" does-continue="true" show-pager="true" slide-interval="1000">
         <ion-slide class="">
