@@ -69,11 +69,30 @@ angular.module("starter",["ionic","starter.controllers"])
     })
       .state("designer",{
       url:"/designer",
-      templateUrl:"design/designer.html"
+      templateUrl:"design/designer.html",
+        controller: 'DesignerCtrl'
     })
+      .state("apply_designer",{
+        url:"/apply_designer",
+        templateUrl:"design/apply_designer.html"
+      })
+
+
+      .state("designer_details",{
+        url:"/designer_details",
+        templateUrl:"design/designer_details.html",
+        controller:"Designer_detailsCtrl"
+      })
+      .state("sjg_details",{
+        url:"/sjg_details",
+        templateUrl:"design/sjg_details.html"
+      })
+
+
       .state("logo",{
       url:"/logo",
-      templateUrl:"design/logo.html"
+      templateUrl:"design/logo.html",
+        controller:"LogoCtrl"
     })
 
  /*     .state("design_tabs.design_drawing",{

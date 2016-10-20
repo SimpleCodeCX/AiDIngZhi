@@ -63,6 +63,44 @@ color: #666;
   opacity: 0.9;
 }
 
+/*design_details_page页面*/
+/*------------------------------->>>>>>>>*/
+.design_details_page .row{
+  height: 200px;
+}
+.design_details_page .row .col{
+  text-align: center;
+  line-height: 20px;
+  height: 200px;
+}
+.design_details_page .row .col .img_div img{
+  border: 1px solid black;
+  box-shadow: 1px 1px 1px;
+  height: 140px;
+}
+.design_details_page .row .col img{
+  height: 150px;
+  width: 100%;
+}
+/*logo_page页面*/
+/*------------------------------->>>>>>>>*/
+.logo_page .row{
+  height: 200px;
+}
+.logo_page .row .col{
+  text-align: center;
+  line-height: 20px;
+  height: 200px;
+}
+.logo_page .row .col .img_div img{
+  border: 1px solid black;
+  box-shadow: 1px 1px 1px;
+  height: 140px;
+}
+.logo_page .row .col img{
+  height: 150px;
+  width: 100%;
+}
 
 
 
